@@ -1,0 +1,250 @@
+h1{
+    font-family: Bell MT,cursive;
+    text-align: center;
+    font-size: 60px;
+     animation-name: enter;
+     animation-duration: 7s;
+    
+    transition:filter 1s;
+   
+}
+h1:hover{
+    
+    filter:blur(1.8px);
+   
+}
+
+h2{
+    font-family: Bell MT,cursive;
+    text-align: center;
+    font-size:40px;
+     animation-name: enter;
+     animation-duration: 7s;
+    transition:text-shadow 2s;
+   
+}
+h2:hover{
+    text-shadow: 2px 2px black;
+   
+}
+
+p{
+    
+  
+}
+audio{
+   
+    
+    position: fixed;
+}
+#texto{
+    
+    animation-name: enter;
+     animation-duration: 7s;
+      font-size: 30px;
+    text-align: justify;
+    
+}
+#texto2{
+    
+    animation-name: enter;
+     animation-duration: 7s;
+      font-size: 30px;
+    text-align: center;
+    
+}
+#main{
+    
+    width: 100%;
+    animation-name: enter;
+    animation-duration: 4s;
+      transition: box-shadow 2s;
+      transition:filter 2s;
+      
+      border-radius: 25px;
+    display: inline-block;
+}
+@keyframes enter {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+#main:hover{
+    box-shadow: 2px 10px 15px black; 
+   
+     
+}
+
+#pie{
+   
+    opacity: 1;
+}
+footer{
+    background-color: gray;
+    text-align: center;
+     clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: 16em;
+    opacity: 0.3
+}
+#cuerpo{
+  background:url("fondo5.jpg");
+}
+
+
+#phones{
+    
+    padding-left: 350px;
+    transition: width 1.5s;
+     transition: height 1.5s;
+     transition: opacity 1s;
+     transition:filter 1s; 
+    
+    height: 200px;
+    width: 200px;
+   
+    
+}
+#phones:hover{
+    opacity: 0.5;
+    height: 195px;
+    width: 195px;
+    filter: drop-shadow(8px 8px 10px black);
+    
+    
+}
+#main:hover #desc1{
+   opacity: 1;
+    
+}
+
+#clouds{
+    
+     transition: width 1.5s;
+     transition: height 1.5s;
+     transition: opacity 1s;
+    
+      transition: filter 1s;
+     
+    height: 200px;
+    width: 200px;
+    
+}
+#clouds:hover{
+    opacity: 0.5;
+    height: 195px;
+    width: 195px;
+    filter:blur(0px);
+     filter: drop-shadow(8px 8px 10px black);
+    
+}
+
+@keyframes disap {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+#me{
+     transition: width 1.5s;
+     transition: height 1.5s;
+     transition: opacity 1s;
+     transition:filter 1s;
+    height: 200px;
+    width: 200px;
+    
+}
+#me:hover{
+    opacity: 0.5;
+    height: 195px;
+    width: 195px;
+     filter: drop-shadow(8px 8px 10px black);
+    
+}
+
+#back{
+    text-align: left;
+     animation-name: enter;
+     animation-duration: 7s;
+     transition: width 1.5s;
+     transition: height 1.5s;
+     transition: opacity 1s;
+      transition:filter 1s;
+    height: 200px;
+    width: 200px;
+    
+}
+#back:hover{
+    opacity: 0.5;
+    height: 195px;
+    width: 195px;
+    filter: drop-shadow(8px 8px 10px black);
+   
+}
+
+
+
+#nota1{
+    padding-left: 500px;
+   padding-bottom: 400px;
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+    animation-name: disap;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+}
+#nota2{
+     width: 200px;
+    height: 200px;
+    padding-bottom: 400px;
+    opacity: 0;
+     animation-name: disap;
+     animation-delay: 3s;
+     animation-iteration-count:infinite;
+    animation-duration: 2s;
+}
+#alternative{
+    background:url("fondo6.jpg");
+    background: rgba(0, 0, 0, 0.6);
+  
+}
+
+#desc1{
+    padding-left: 400px;
+    transition:opacity 2s;
+    opacity: 0;
+}
+#desc2{
+   
+    padding-left: 600px;
+    transition:opacity 2s;
+    opacity: 0;
+}
+#desc3{
+    
+    transition:opacity 2s;
+    opacity: 0;
+}
+#Descriptions{
+    font-family: Bell MT,cursive;
+    display: inline;
+}
+
+#main:hover #desc2{
+   opacity: 1;
+    
+}
+#main:hover #desc3{
+   opacity: 1;
+    
+}
+
+.mySlides {
+    display:none;
+    filter:blur(1px);
+    opacity: 1;
+    padding-left: 300px;
+    text-align: center;
+}
